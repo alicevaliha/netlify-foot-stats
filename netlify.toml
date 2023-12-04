@@ -16,8 +16,3 @@ Access-Control-Allow-Headers = "X-Requested-With, Content-Type, Accept"
   from = "/*"
   to = "/:splat"
 
-[context.production.environment]
-  NETLIFY_DB_HOST = "brwyfouxydrilhkclil6-mysql.services.clever-cloud.com"
-  NETLIFY_DB_USERNAME = "unfow3ay7ntautmd"
-  NETLIFY_DB_PASSWORD = "XiPcIeCVqW30DNLO0994"
-  NETLIFY_DB_DBNAME = "brwyfouxydrilhkclil6"
